@@ -1,13 +1,11 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
-}
-
-a:hover {
-  color: black;
-}
-/*# sourceMappingURL=style.css.map */
+#lion .minibox {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  hover: 20px;
+}/*# sourceMappingURL=style.css.map */
