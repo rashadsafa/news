@@ -3,9 +3,22 @@ body {
   font-weight: 500;
 }
 
-#lion .minibox {
-  border: 1px solid red;
-  width: 100px;
-  height: 100px;
-  hover: 20px;
+#king .minibox {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ff0000;
+  font-size: 30px;
+  transition: 3s;
+}
+#king .minibox:hover {
+  width: 300px;
+}
+@media screen and (max-width: 800px) {
+  #king .minibox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: #0000ff;
+    color: #ffffff;
+  }
 }/*# sourceMappingURL=style.css.map */
