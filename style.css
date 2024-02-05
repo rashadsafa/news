@@ -22,4 +22,27 @@ body {
     background-color: #0000ff;
     color: #ffffff;
   }
+}
+
+#hero {
+  padding: 40px;
+}
+#hero .minibox {
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #0000ff;
+  transition: 3s;
+}
+#hero .minibox:hover {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 800px) {
+  #hero .minibox {
+    width: 100px;
+    height: 100px;
+    background-color: #ffff00;
+    color: #ff0000;
+  }
 }/*# sourceMappingURL=style.css.map */
